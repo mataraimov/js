@@ -14,21 +14,21 @@
 // 2==1 (false)
 
 let age = 21;
-// if (age >= 18) {
-//   console.log('Вы совершеннолетний');
-// } else {
-//   console.log('Вы несовершеннолетний');
-// }
+if (age >= 18) {
+  console.log('Вы совершеннолетний');
+} else {
+  console.log('Вы несовершеннолетний');
+}
 
 let temp = 33;
 
-// if (temp >= 30) {
-//   console.log('Очень жарко');
-// } else if (temp <= 10) {
-//   console.log('Очень холодно');
-// } else {
-//   console.log('Комфортная погода');
-// }
+if (temp >= 30) {
+  console.log('Очень жарко');
+} else if (temp <= 10) {
+  console.log('Очень холодно');
+} else {
+  console.log('Комфортная погода');
+}
 // Операторы Логические
 // &&-AND ||-OR !-NOT
 // &-Амперсант
@@ -61,15 +61,15 @@ if (sum >= 20) {
 let dollar = 84;
 let ruble = 1.2;
 let tenge = 0.2;
-let summa = +prompt('Сколько у тебя денег?');
-let currency = prompt('В какую валюту тебе надо?');
+// let summa = +prompt('Сколько у тебя денег?');
+// let currency = prompt('В какую валюту тебе надо?');
 
-if (currency == '$') {
-  console.log(summa / dollar);
-} else if (currency == 'Р') {
-  console.log(summa / ruble);
-} else if (currency == 'T') {
-  console.log(summa / tenge);
-} else {
-  console.log('Нету такой валюты');
-}
+// if (currency == '$') {
+//   console.log(summa / dollar);
+// } else if (currency == 'Р') {
+//   console.log(summa / ruble);
+// } else if (currency == 'T') {
+//   console.log(summa / tenge);
+// } else {
+//   console.log('Нету такой валюты');
+// }
